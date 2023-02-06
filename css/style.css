@@ -108,6 +108,12 @@ main {
     #intro .card:first-child > div{
         width: 50%;
     }
+    #planning .columns {
+        display: flex;
+        align-items: flex-end;
+        padding-left: 100px;
+        padding-right: 100px;
+    }
 }
 
 @media screen and (min-width: 1200px) {
