@@ -124,6 +124,23 @@ main {
     #intro .card:first-child {
         width: calc((100% / 3 * 2) - 1.5rem);
     }
+    #testimonial .card {
+        display: flex;
+    }
+    #testimonial .card:last-child {
+        flex-grow: 1;
+    }
+    #benefits .cards {
+        display: flex;
+        flex-wrap: wrap;
+        margin-left: -1rem;
+        margin-right: -1rem;
+    }
+    #benefits .card {
+        margin-left: 1rem;
+        margin-right: 1rem;
+        width: calc((100% / 2) - 2rem);
+    }
 }
 
 @media screen and (min-width: 992px) {
@@ -142,11 +159,14 @@ main {
         padding-left: 100px;
         padding-right: 100px;
     }
-    #testimonial .card {
-        display: flex;
+    #planning .column {
+        width: calc(50% - 2rem);
+        margin: 1rem;
     }
-    #testimonial .card:last-child {
-        flex-grow: 1;
+    #benefits .card {
+        margin-left: 1rem;
+        margin-right: 1rem;
+        width: calc((100% / 3) - 2rem);
     }
 }
 
