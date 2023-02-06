@@ -13,6 +13,9 @@
 }
 
 /* Regole CSS generali */
+body {
+    font-family: sans-serif;
+}
 .container {
     max-width: 100%;
     margin: auto;
@@ -79,6 +82,20 @@ main {
 }
 #testimonial .card {
     background-color: var(--secondary-color);
+}
+
+/* section benefits */
+#benefits {
+    background-color: var(--secondary-color);
+    padding: 4rem 0;
+}
+#benefits .card {
+    margin-top: 2rem;
+    margin-bottom: 2rem;
+}
+#benefits h2{
+    text-align: center;
+    color: white;
 }
 
 
