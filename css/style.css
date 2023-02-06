@@ -125,6 +125,12 @@ main {
         padding-left: 100px;
         padding-right: 100px;
     }
+    #testimonial .card {
+        display: flex;
+    }
+    #testimonial .card:last-child {
+        flex-grow: 1;
+    }
 }
 
 @media screen and (min-width: 1200px) {
