@@ -126,6 +126,7 @@ footer {
 footer .container {
     text-align: center;
     color: white;
+    padding: 0 2rem;
 }
 footer .mt-48{
     margin-top: 3rem;
@@ -180,6 +181,9 @@ footer .mt-48{
     #try {
         padding: 2rem 10rem;
     }
+    footer .container {
+        padding: 0 10rem;
+    }
 }
 
 @media screen and (min-width: 992px) {
@@ -215,6 +219,9 @@ footer .mt-48{
     }
     #try {
         padding: 2rem 20rem;
+    }
+    footer .container {
+        padding: 0 20rem;
     }
 }
 
