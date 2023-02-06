@@ -70,6 +70,17 @@ main {
     margin: 1rem 0;
 }
 
+/* section testimonial */
+#testimonial {
+    padding: 3rem 0;
+}
+#testimonial .card {
+    margin: 2rem 0;
+}
+#testimonial .card {
+    background-color: var(--secondary-color);
+}
+
 
 
 
