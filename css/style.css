@@ -13,3 +13,42 @@
 }
 
 /* Regole CSS generali */
+.container {
+    max-width: 100%;
+    margin: auto;
+}
+.d-flex {
+    display: flex;
+}
+.s-between {
+    justify-content: space-between;
+}
+.align-c {
+    align-items: center;
+}
+
+/* HEADER */
+.site-header {
+    background-color: var(--primary-color);
+    height: 80px;
+    width: 100%;
+    position: fixed;
+    top: 0;
+    left: 0;
+    z-index: 9999;
+    box-shadow: 0px 0px 5px 0px blue;
+}
+.site-header .box{
+    background-color: var(--primary-light-color);
+    line-height: 80px;
+    vertical-align: middle;
+}
+.site-header img {
+    line-height: 80px;
+    vertical-align: middle;
+}
+
+/* MAIN */
+main {
+    padding-top: 100px;
+}
