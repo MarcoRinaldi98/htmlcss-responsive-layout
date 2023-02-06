@@ -52,3 +52,29 @@
 main {
     padding-top: 100px;
 }
+
+
+
+
+
+
+
+
+/* Regole Responsive */
+@media screen and (min-width: 768px) {
+    .container {
+        max-width: 740px;
+    }
+}
+
+@media screen and (min-width: 992px) {
+    .container {
+        max-width: 960px;
+    }
+}
+
+@media screen and (min-width: 1200px) {
+    .container {
+        max-width: 1170px;
+    }
+}
