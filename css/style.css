@@ -1,0 +1,15 @@
+/* Style */
+/* CSS reset */
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+:root {
+    --primary-color: #3684FD;
+    --primary-light-color: #B5DDFF;
+    --secondary-color: #9792E4;
+}
+
+/* Regole CSS generali */
