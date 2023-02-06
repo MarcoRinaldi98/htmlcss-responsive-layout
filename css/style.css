@@ -53,6 +53,13 @@ main {
     padding-top: 100px;
 }
 
+/* section intro */
+#intro .card {
+    margin-bottom: 20px;
+}
+#intro .content-card {
+    background-color: var(--primary-light-color);
+}
 
 
 
