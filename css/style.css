@@ -72,11 +72,32 @@ main {
     .container {
         max-width: 740px;
     }
+    #intro .cards {
+        display: flex;
+        flex-wrap: wrap;
+        margin-left: -0.75rem;
+        margin-right: -0.75rem;
+    }
+    #intro .card {
+        width: calc((100% / 3) - 1.5rem);
+        margin-left: 0.75rem;
+        margin-right: 0.75rem;
+        background-color: #B5DDFF;
+    }
+    #intro .card:first-child {
+        width: calc((100% / 3 * 2) - 1.5rem);
+    }
 }
 
 @media screen and (min-width: 992px) {
     .container {
         max-width: 960px;
+    }
+    #intro .card:first-child {
+        display: flex;
+    }
+    #intro .card:first-child > div{
+        width: 50%;
     }
 }
 
