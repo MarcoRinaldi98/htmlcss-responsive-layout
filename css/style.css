@@ -98,7 +98,13 @@ main {
     color: white;
 }
 
-
+/* section about-us */
+#about-us {
+    padding: 2rem 0;
+}
+#about-us .content-col {
+    margin: 1rem 0;
+}
 
 
 
