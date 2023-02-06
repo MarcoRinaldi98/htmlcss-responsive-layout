@@ -61,6 +61,15 @@ main {
     background-color: var(--primary-light-color);
 }
 
+/* section planning */
+#planning {
+    background-color: var(--secondary-color);
+    padding: 2rem 0;
+}
+#planning .column {
+    margin: 1rem 0;
+}
+
 
 
 
