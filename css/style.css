@@ -147,6 +147,12 @@ main {
         margin-right: 1rem;
         width: calc((100% / 2) - 2rem);
     }
+    #about-us .columns {
+        display: flex;
+    }
+    #about-us .column {
+        width: 50%;
+    }
 }
 
 @media screen and (min-width: 992px) {
@@ -173,6 +179,12 @@ main {
         margin-left: 1rem;
         margin-right: 1rem;
         width: calc((100% / 3) - 2rem);
+    }
+    #about-us .column-left {
+        width: 70%;
+    }
+    #about-us .column-right {
+        width: 30%;
     }
 }
 
