@@ -106,6 +106,17 @@ main {
     margin: 1rem 0;
 }
 
+/* section try */
+#try {
+    background-color: var(--secondary-color);
+    padding: 2rem 0;
+}
+#try .container {
+    text-align: center;
+}
+.mtb-16 {
+    margin: 1rem 0;
+}
 
 
 
