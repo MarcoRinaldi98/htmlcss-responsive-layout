@@ -10,6 +10,7 @@
     --primary-color: #3684FD;
     --primary-light-color: #B5DDFF;
     --secondary-color: #9792E4;
+    --footer-color: #333333;
 }
 
 /* Regole CSS generali */
@@ -115,6 +116,19 @@ main {
 }
 .mtb-16 {
     margin: 1rem 0;
+}
+
+/* FOOTER */
+footer {
+    background-color: var(--footer-color);
+    padding: 2rem 0;
+}
+footer .container {
+    text-align: center;
+    color: white;
+}
+footer .mt-48{
+    margin-top: 3rem;
 }
 
 
