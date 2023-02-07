@@ -251,14 +251,35 @@ main {
     padding: 4rem 0;
 }
 #benefits .card {
+    background-color: var(--white-color);
     margin-top: 2rem;
     margin-bottom: 2rem;
+    padding: 2rem;
 }
 #benefits h2{
     text-align: center;
-    color: white;
+    font-size: 36px;
+    color: var(--white-color);
 }
-
+#benefits .card h1 {
+    color: var(--secondary-color);
+    font-size: 60px;
+}
+#benefits .card h3 {
+    color: var(--secondary-color);
+    padding: 1rem 0;
+}
+#benefits .card p {
+    line-height: 2rem;
+    padding: 1rem 0 2rem 0;
+}
+#benefits .card a {
+    text-decoration: none;
+    background-color: var(--secondary-color);
+    color: var(--white-color);
+    padding: 10px 40px;
+    border-radius: 30px;
+}
 /* section about-us */
 #about-us {
     padding: 2rem 0;
