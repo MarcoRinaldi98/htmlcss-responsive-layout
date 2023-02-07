@@ -45,11 +45,17 @@ section {
 .btn-big {
     padding: 10px 40px;
 }
+.btn-circle {
+    padding: 10px 16px;
+}
 .bg-white {
     background-color: var(--white-color);
 }
 .bg-blue {
     background-color: var(--primary-color);
+}
+.bg-purple {
+    background-color: var(--secondary-color);
 }
 .c-black {
     color: black;
@@ -66,6 +72,9 @@ section {
 }
 .mb-2 {
     margin-bottom: 2rem;
+}
+.t-center {
+    text-align: center;
 }
 
 
@@ -117,10 +126,6 @@ main {
     line-height: 2rem;
     font-weight: bold;
 }
-#intro .content-card {
-    background-color: var(--primary-light-color);
-    padding: 1.5rem;
-}
 #intro .card:first-child {
     text-align: left;
     padding: 0;
@@ -149,7 +154,37 @@ main {
 }
 #planning .column {
     margin: 1rem 0;
+    padding: 1.5rem;
 }
+.frist-plan-col img {
+    width: 100%;
+}
+.frist-plan-col h2 {
+    color: var(--white-color);
+    font-size: 24px;
+    padding: 5rem 0;
+}
+.frist-plan-col p {
+    color: var(--white-color);
+    line-height: 1.5rem;
+}
+.second-plan-col img {
+    width: 100%;
+}
+.second-plan-col h3 {
+    font-size: 20px;
+    padding-top: 1rem;
+}
+.second-plan-col p {
+    font-style: italic;
+    line-height: 1.5rem;
+    padding: 2rem 0;
+}
+.second-plan-col p {
+    font-style: italic;
+    line-height: 1.5rem;
+}
+
 
 /* section testimonial */
 #testimonial {
@@ -292,6 +327,9 @@ footer .mt-48{
     #planning .column {
         width: calc(50% - 2rem);
         margin: 1rem;
+    }
+    #planning .second-plan-col img {
+        width: 80%;
     }
     #benefits .card {
         margin-left: 1rem;
