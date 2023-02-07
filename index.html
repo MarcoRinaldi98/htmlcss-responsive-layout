@@ -4,30 +4,31 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-
+    <!-- Link Google fonts per "Open Sans" -->
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300;0,400;0,500;0,600;0,700;0,800;1,300;1,400;1,500;1,600;1,700;1,800&display=swap" rel="stylesheet">
-
+    <!-- Link per utilizzare il cdn di font awesome -->
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.1/css/all.min.css" integrity="sha512-MV7K8+y+gLIBoVD59lQIYicR65iaqukzvf/nwasF0nqhPay5w/9lJmVM2hMDcnK1OnMGCdVK+iQrJ7lzPJQd1w==" crossorigin="anonymous" referrerpolicy="no-referrer" />
-
+    <!-- link al foglio di stile -->
     <link rel="stylesheet" href="css/style.css">
-
+    <!-- Titolo -->
     <title>Responsive layout</title>
 
 </head>
 <body>
+    <!-- HEADER -->
     <header class="site-header">
+        <!-- Logo del sito -->
         <div class="container d-flex s-between align-c">           
             <a href="#">
                 <img src="./img/logo.png" alt="Logo">
             </a>
-            
-            
+            <!-- Menu ad hamburger -->
             <a class="hamburger c-white" href="#">
                 <i class="fa-solid fa-bars"></i>
             </a>
-            
+            <!-- Menu completo -->
             <nav class="header-menu">
                 <ul>
                     <li>
@@ -59,12 +60,14 @@
             </nav>      
         </div>
     </header>
-
+    <!-- MAIN -->
     <main>
+        <!-- section intro -->
         <section id="intro">
             <div class="container">
+                <!-- contenitore caselle -->
                 <div class="cards">
-
+                    <!-- Prima casella piu grande -->
                     <div class="card b-radius">
 
                         <div class="frist-card-text">
@@ -78,7 +81,7 @@
                         <img class="app-img" src="./img/phone.png" alt="foto app telefono">                        
 
                     </div>
-
+                    <!-- Casella piccola -->
                     <div class="card b-radius">
                         <span>
                             <i class="icon fa-solid fa-file"></i>
@@ -86,7 +89,7 @@
                         <h3>Clean Code</h3>
                         <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Dolore, blanditiis voluptas iusto amet dolor reiciendis.</p>
                     </div>
-
+                    <!-- Casella piccola -->
                     <div class="card b-radius">
                         <span>
                             <i class="icon fa-solid fa-compass-drafting"></i>
@@ -94,7 +97,7 @@
                         <h3>Web Design</h3>
                         <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Dolore, blanditiis voluptas iusto amet dolor reiciendis.</p>                       
                     </div>
-
+                    <!-- Casella piccola -->
                     <div class="card b-radius">                        
                         <span>
                             <i class="icon fa-solid fa-laptop-code"></i>
@@ -102,7 +105,7 @@
                         <h3>Developement</h3>
                         <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Dolore, blanditiis voluptas iusto amet dolor reiciendis.</p>                       
                     </div>
-
+                    <!-- Casella piccola -->
                     <div class="card b-radius">
                         <span>
                             <i class="icon fa-solid fa-bullhorn"></i>
@@ -114,15 +117,16 @@
                 </div>
             </div>
         </section>
-
+        <!-- section planning -->
         <section id="planning">
+            <!-- Colonna di sinistra -->
             <div class="container columns">
                 <div class="column frist-plan-col">
                     <img src="./img/planning1.png" alt="planning 1">
                     <h2>Strategic Planning</h2>
                     <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Officiis explicabo praesentium assumenda. Sapiente sed adipisci perspiciatis commodi porro nulla, error, libero perferendis corrupti excepturi explicabo cum officia, ipsa in voluptate.</p>
                 </div>
-
+                <!-- Caolonna di destra -->
                 <div class="column second-plan-col bg-white b-radius t-center">
                     <img src="./img/planning2.png" alt="planning 2">
                     <h3>App Developement</h3>
@@ -133,15 +137,16 @@
                 </div>
             </div>
         </section>
-
+        <!-- section testimonial -->
         <section id="testimonial">
             <div class="container">
+                <!-- Intitolazione della sezione-->
                 <div class="box t-center">
                     <h3 class="mb-2">TESTIMONIALS</h3>
                     <h2 class="c-purple">We are committed expert partners</h2>
                     <p class="mtb-2">Lorem ipsum dolor sit, amet consectetur adipisicing elit. Iusto odio error, officia voluptatibus voluptatem dicta molestiae consectetur vero alias rerum eaque asperiores tenetur ex ipsam aliquid, incidunt impedit debitis magni.</p>
                 </div>
-
+                
                 <div class="card b-radius t-center">
                     <div class="user">
                         <div class="user-1"></div>
@@ -151,7 +156,7 @@
                         <h5 class="c-white ptb-2 big-text">NAT REYNOLDS</h5>
                     </div>
                 </div>
-
+                <!-- Card 2 -->
                 <div class="card b-radius t-center">
                     <div class="user">
                         <div class="user-2"></div>
@@ -161,7 +166,7 @@
                         <h5 class="c-white ptb-2 big-text">NAT REYNOLDS</h5>
                     </div>
                 </div>
-
+                <!-- Card 3 -->
                 <div class="card b-radius t-center">
                     <div class="user">
                         <div class="user-3"></div>
@@ -173,48 +178,49 @@
                 </div>
             </div>
         </section>
-
+        <!-- section benefits -->
         <section id="benefits">
             <div class="container">
-                <div>
-                    <h2>Benefits of working with us</h2>
-                </div>
+                <!-- Titolo della sezione -->
+                <h2>Benefits of working with us</h2>
+                <!-- contenitore delle card -->
                 <div class="cards">
+                    <!-- Card 1 -->
                     <div class="card b-radius">
                         <h1>01</h1>
                         <h3>Hight Quality</h3>
                         <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Tempore inventore ab minima asperiores reprehenderit esse fuga, veritatis eligendi? Culpa fuga nihil repudiandae non porro pariatur maxime quaerat magnam nam autem.</p>
                         <a href="#">m o r e</a>
                     </div>
-
+                    <!-- Card 2 -->
                     <div class="card b-radius">
                         <h1>02</h1>
                         <h3>Creative Team</h3>
                         <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Tempore inventore ab minima asperiores reprehenderit esse fuga, veritatis eligendi? Culpa fuga nihil repudiandae non porro pariatur maxime quaerat magnam nam autem.</p>
                         <a href="#">m o r e</a>
                     </div>
-
+                    <!-- Card 3 -->
                     <div class="card b-radius">
                         <h1>03</h1>
                         <h3>Amazing Results</h3>
                         <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Tempore inventore ab minima asperiores reprehenderit esse fuga, veritatis eligendi? Culpa fuga nihil repudiandae non porro pariatur maxime quaerat magnam nam autem.</p>
                         <a href="#">m o r e</a>
                     </div>
-
+                    <!-- Card 4 -->
                     <div class="card b-radius">
                         <h1>04</h1>
                         <h3>Best pricing</h3>
                         <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Tempore inventore ab minima asperiores reprehenderit esse fuga, veritatis eligendi? Culpa fuga nihil repudiandae non porro pariatur maxime quaerat magnam nam autem.</p>
                         <a href="#">m o r e</a>
                     </div>
-
+                    <!-- Card 5 -->
                     <div class="card b-radius">
                         <h1>05</h1>
                         <h3>Innovations</h3>
                         <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Tempore inventore ab minima asperiores reprehenderit esse fuga, veritatis eligendi? Culpa fuga nihil repudiandae non porro pariatur maxime quaerat magnam nam autem.</p>
                         <a href="#">m o r e</a>
                     </div>
-
+                    <!-- Card 6 -->
                     <div class="card b-radius">
                         <h1>06</h1>
                         <h3>24/7 Support</h3>
@@ -224,15 +230,16 @@
                 </div>
             </div>
         </section>
-
+        <!-- section about us -->
         <section id="about-us">
             <div class="container columns">
+                <!-- Colonna di sinistra -->
                 <div class="column column-left">
                     <h1>About Us</h1>
                     <p class="l-height ptb-2">Lorem ipsum dolor sit, amet consectetur adipisicing elit. Suscipit, sed? Voluptate, iusto tempora. A velit laboriosam asperiores, dolore vel, aliquam natus nam alias laudantium officiis voluptatem sapiente placeat odit recusandae!</p>
                     <p class="l-height ptb-2">Lorem ipsum dolor sit amet consectetur adipisicing elit. Quaerat, earum voluptatibus possimus consectetur sapiente perspiciatis sed consequuntur ut voluptatum non nostrum incidunt, iure provident iste mollitia obcaecati excepturi repellendus fugiat.</p>
                 </div>
-
+                <!-- Colonna di destra -->
                 <div class="column column-right">
                     <div class="user">
                         <div class="user-4">
@@ -246,7 +253,7 @@
                 </div>
             </div>
         </section>
-
+        <!-- section try -->
         <section id="try">
             <div class="container">
                 <div class="ptb-1 c-grey">GET STARTED</div>
@@ -258,7 +265,7 @@
             </div>
         </section>
     </main>
-    
+    <!-- FOOTER -->
     <footer>
         <div class="container">
             <div class="text">
