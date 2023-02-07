@@ -63,6 +63,9 @@ section {
 .c-white {
     color: var(--white-color);
 }
+.c-purple {
+    color: var(--secondary-color);
+}
 .b-radius {
     border-radius: 1.5rem;
 }
@@ -73,8 +76,20 @@ section {
 .mb-2 {
     margin-bottom: 2rem;
 }
+.mtb-2 {
+    margin: 2rem 0;
+}
+.ptb-2 {
+    padding: 2rem 0;
+}
 .t-center {
     text-align: center;
+}
+.l-height{
+    line-height: 2rem;
+}
+.big-text {
+    font-size: 20px;
 }
 
 
@@ -192,10 +207,43 @@ main {
 }
 #testimonial .card {
     margin: 2rem 0;
+    background-color: var(--secondary-color);
+    padding: 1rem;
 }
 #testimonial .card {
     background-color: var(--secondary-color);
 }
+.user {
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.user-1 {
+    background-image: url(../img/testimonial1.jpg);
+    background-size: cover;
+    background-position: center;
+    width: 200px;
+    height: 200px;
+    border-radius: 50%;
+}
+.user-2 {
+    background-image: url(../img/testimonial2.jpg);
+    background-size: cover;
+    background-position: center;
+    width: 200px;
+    height: 200px;
+    border-radius: 50%;
+}
+.user-3 {
+    background-image: url(../img/testimonial3.jpg);
+    background-size: cover;
+    background-position: center;
+    width: 200px;
+    height: 200px;
+    border-radius: 50%;
+}
+
 
 /* section benefits */
 #benefits {
@@ -274,6 +322,10 @@ footer .mt-48{
     #testimonial .card:last-child {
         flex-grow: 1;
     }
+    #testimonial .card-right {
+        text-align: left;
+        padding-left: 1rem;
+    }
     #benefits .cards {
         display: flex;
         flex-wrap: wrap;
@@ -330,6 +382,9 @@ footer .mt-48{
     }
     #planning .second-plan-col img {
         width: 80%;
+    }
+    #testimonial .card-right {
+        padding-left: 0;
     }
     #benefits .card {
         margin-left: 1rem;
