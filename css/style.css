@@ -213,13 +213,13 @@ main {
 #testimonial .card {
     background-color: var(--secondary-color);
 }
-.user {
+#testimonial .user {
     width: 100%;
     display: flex;
     align-items: center;
     justify-content: center;
 }
-.user-1 {
+#testimonial .user-1 {
     background-image: url(../img/testimonial1.jpg);
     background-size: cover;
     background-position: center;
@@ -227,7 +227,7 @@ main {
     height: 200px;
     border-radius: 50%;
 }
-.user-2 {
+#testimonial .user-2 {
     background-image: url(../img/testimonial2.jpg);
     background-size: cover;
     background-position: center;
@@ -235,7 +235,7 @@ main {
     height: 200px;
     border-radius: 50%;
 }
-.user-3 {
+#testimonial .user-3 {
     background-image: url(../img/testimonial3.jpg);
     background-size: cover;
     background-position: center;
@@ -286,6 +286,34 @@ main {
 }
 #about-us .content-col {
     margin: 1rem 0;
+}
+#about-us .column-left, .column-right {
+    padding: 2rem;
+}
+#about-us h1 {
+    color: var(--secondary-color);
+    font-size: 50px;
+}
+#about-us .user {
+    width: 100%;
+    display: flex;
+    align-items: center;
+}
+#about-us .user-4 {
+    background-image: url(../img/about.jpg);
+    background-size: cover;
+    background-position: center;
+    width: 200px;
+    height: 200px;
+    border-radius: 50%;   
+    position: relative;
+}
+#about-us .user i{
+    position: absolute;
+    top:0;
+    right: 0;
+    font-size: 60px;
+    color: var(--secondary-color);
 }
 
 /* section try */
