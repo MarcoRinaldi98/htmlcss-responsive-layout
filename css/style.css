@@ -12,6 +12,7 @@
     --secondary-color: #9792E4;
     --footer-color: #333333;
     --white-color: #fff;
+    --p-color: #566979;
 }
 
 /* Regole CSS generali */
@@ -42,7 +43,7 @@ section {
     text-decoration: none;
 }
 .btn-big {
-    padding: 10px 30px;
+    padding: 10px 40px;
 }
 .bg-white {
     background-color: var(--white-color);
@@ -55,6 +56,16 @@ section {
 }
 .c-white {
     color: var(--white-color);
+}
+.b-radius {
+    border-radius: 1.5rem;
+}
+.icon {
+    color: var(--primary-color);
+    font-size: 5rem;
+}
+.mb-2 {
+    margin-bottom: 2rem;
 }
 
 
@@ -92,10 +103,43 @@ main {
 
 /* section intro */
 #intro .card {
-    margin-bottom: 20px;
+    margin-bottom: 2rem;
+    text-align: center;
+    padding: 1.5rem;
+    background-color: var(--primary-light-color);
+}
+#intro .card h3 {
+    color: var(--primary-color);
+    margin: 1rem 0;
+}
+#intro .card p {
+    color: var(--p-color);
+    line-height: 2rem;
+    font-weight: bold;
 }
 #intro .content-card {
     background-color: var(--primary-light-color);
+    padding: 1.5rem;
+}
+#intro .card:first-child {
+    text-align: left;
+    padding: 0;
+}
+#intro {
+    margin: 0 auto;
+    display: block;
+    width: 80%;
+    align-self: flex-end;
+}
+#intro .app-img {
+    width: 90%;
+    align-self: flex-end;
+    display: block;
+    margin: 0 auto;
+    padding: 0 2rem;
+}
+#intro .frist-card-text {
+    padding: 1.5rem;
 }
 
 /* section planning */
@@ -186,6 +230,9 @@ footer .mt-48{
     #intro .card:first-child {
         width: calc((100% / 3 * 2) - 1.5rem);
     }
+    #intro .app-img {
+        margin: 0;
+    }
     #testimonial .card {
         display: flex;
     }
@@ -231,6 +278,9 @@ footer .mt-48{
         display: flex;
     }
     #intro .card:first-child > div{
+        width: 50%;
+    }
+    #intro .app-img {
         width: 50%;
     }
     #planning .columns {
